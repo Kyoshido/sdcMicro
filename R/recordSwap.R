@@ -438,7 +438,8 @@ recordSwap.default <- function(data, hid, hierarchy, similar,
     risk <- numeric(0)
   }
    # risk <- numeric(0) # drop this if risk was tested enough
-
+car('test')
+  
   # take time before starting swapping
   start_time <- Sys.time()
 
